@@ -1,0 +1,860 @@
+{
+ "@context": "http://environment.data.gov.uk/flood-monitoring/meta/context.jsonld",
+ "meta": {
+  "publisher": "Environment Agency",
+  "licence": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "documentation": "http://environment.data.gov.uk/flood-monitoring/doc/reference",
+  "version": "0.9",
+  "comment": "Status: Beta service",
+  "hasFormat": [
+   "http://environment.data.gov.uk/flood-monitoring/id/stations.csv?parameter=level&lat=52.4796&long=-1.9026&dist=15",
+   "http://environment.data.gov.uk/flood-monitoring/id/stations.rdf?parameter=level&lat=52.4796&long=-1.9026&dist=15",
+   "http://environment.data.gov.uk/flood-monitoring/id/stations.ttl?parameter=level&lat=52.4796&long=-1.9026&dist=15",
+   "http://environment.data.gov.uk/flood-monitoring/id/stations.html?parameter=level&lat=52.4796&long=-1.9026&dist=15"
+  ]
+ },
+ "items": [
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4172",
+   "RLOIid": "2157",
+   "catchmentName": "Tame Anker and Mease",
+   "dateOpened": "2002-01-28",
+   "easting": 410044,
+   "label": "Solihull Lodge",
+   "lat": 52.397668,
+   "long": -1.853805,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4172-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 277750,
+   "notation": "4172",
+   "riverName": "River Cole",
+   "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4172/stageScale",
+   "stationReference": "4172",
+   "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+   "town": "Major's Green",
+   "wiskiID": "4172"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4066",
+   "RLOIid": "2129",
+   "catchmentName": "Tame Anker and Mease",
+   "dateOpened": "1973-11-01",
+   "easting": 418300,
+   "label": "Bacons End",
+   "lat": 52.484208,
+   "long": -1.731944,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4066-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 287400,
+   "notation": "4066",
+   "riverName": "River Cole",
+   "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4066/stageScale",
+   "stationReference": "4066",
+   "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+   "town": "Marston Green",
+   "wiskiID": "4066"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4094",
+   "RLOIid": "2143",
+   "catchmentName": "Tame Anker and Mease",
+   "dateOpened": "1987-01-01",
+   "easting": 421250,
+   "label": "Castle Farm",
+   "lat": 52.496238,
+   "long": -1.688419,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4094-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 288750,
+   "notation": "4094",
+   "riverName": "River Blythe",
+   "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4094/stageScale",
+   "stationReference": "4094",
+   "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+   "town": "Coleshill",
+   "wiskiID": "4094"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4039",
+   "RLOIid": "2115",
+   "catchmentName": "Tame Anker and Mease",
+   "dateOpened": "1967-04-14",
+   "easting": 407080,
+   "label": "Calthorpe Park",
+   "lat": 52.460104,
+   "long": -1.897221,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4039-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 284690,
+   "notation": "4039",
+   "riverName": "River Rea",
+   "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4039/stageScale",
+   "stationReference": "4039",
+   "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+   "town": "Edgbaston",
+   "wiskiID": "4039"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4087",
+   "RLOIid": "2140",
+   "catchmentName": "Tame Anker and Mease",
+   "dateOpened": "1984-04-01",
+   "easting": 406100,
+   "label": "Perry Park",
+   "lat": 52.524933,
+   "long": -1.911514,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4087-level-logged-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Logged",
+     "unitName": "mASD"
+    },
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4087-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 291900,
+   "notation": "4087",
+   "riverName": "River Tame",
+   "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4087/stageScale",
+   "stationReference": "4087",
+   "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+   "town": "Perry Barr",
+   "wiskiID": "4087"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4003",
+   "RLOIid": "2098",
+   "catchmentName": "Tame Anker and Mease",
+   "dateOpened": "1955-09-06",
+   "downstageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4003/downstageScale",
+   "easting": 416980,
+   "label": "Water Orton",
+   "lat": 52.52039,
+   "long": -1.751178,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4003-level-downstage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Downstream Stage",
+     "unitName": "mASD"
+    },
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4003-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 291420,
+   "notation": "4003",
+   "riverName": "River Tame",
+   "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4003/stageScale",
+   "stationReference": "4003",
+   "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+   "town": "Water Orton",
+   "wiskiID": "4003"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4129",
+   "RLOIid": "2151",
+   "catchmentName": "Tame Anker and Mease",
+   "dateOpened": "2000-06-01",
+   "easting": 412729,
+   "label": "Cheswick Green",
+   "lat": 52.376154,
+   "long": -1.814434,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4129-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 275363,
+   "notation": "4129",
+   "riverName": "River Blythe",
+   "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4129/stageScale",
+   "stationReference": "4129",
+   "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+   "town": "Cheswick Green",
+   "wiskiID": "4129"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4080",
+   "RLOIid": "2134",
+   "catchmentName": "Tame Anker and Mease",
+   "dateOpened": "1981-11-01",
+   "easting": 420740,
+   "label": "Lea Marston",
+   "lat": 52.541117,
+   "long": -1.695622,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4080-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 293740,
+   "notation": "4080",
+   "riverName": "River Tame",
+   "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4080/stageScale",
+   "stationReference": "4080",
+   "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+   "town": "Lea Marston",
+   "wiskiID": "4080"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4081",
+   "RLOIid": "2135",
+   "catchmentName": "Tame Anker and Mease",
+   "dateOpened": "1978-11-28",
+   "easting": 401220,
+   "label": "Bescot",
+   "lat": 52.560205,
+   "long": -1.983428,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4081-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 295820,
+   "notation": "4081",
+   "riverName": "River Tame",
+   "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4081/stageScale",
+   "stationReference": "4081",
+   "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+   "town": "Walsall",
+   "wiskiID": "4081"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2516",
+   "RLOIid": "2076",
+   "catchmentName": "Worcestershire Middle Severn",
+   "dateOpened": "2007-10-26",
+   "easting": 395923,
+   "label": "Halesowen",
+   "lat": 52.462884,
+   "long": -2.061427,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2516-level-stage-i-15_min-m",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "m"
+    },
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2516-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 284996,
+   "notation": "2516",
+   "riverName": "River Stour",
+   "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2516/stageScale",
+   "stationReference": "2516",
+   "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+   "town": "Halesowen",
+   "wiskiID": "2516"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4878",
+   "RLOIid": "9061",
+   "catchmentName": "Tame Anker and Mease",
+   "dateOpened": "2000-06-01",
+   "easting": 408216,
+   "gridReference": "SP08229090",
+   "label": "Brookvale Road",
+   "lat": 52.515925,
+   "long": -1.880351,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4878-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 290901,
+   "notation": "4878",
+   "riverName": "River Tame",
+   "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4878/stageScale",
+   "stationReference": "4878",
+   "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+   "town": "Brookvale Road",
+   "wiskiID": "4878"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4755",
+   "easting": 421700,
+   "gridReference": "SP2170095555",
+   "label": "Kingsbury LVL",
+   "lat": 52.557396,
+   "long": -1.681349,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4755-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 295555,
+   "notation": "4755",
+   "stationReference": "4755",
+   "catchmentName": "Tame Anker and Mease"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4084",
+   "easting": 402935,
+   "gridReference": "SP02939264",
+   "label": "Sandwell LVL",
+   "lat": 52.531656,
+   "long": -1.958157,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4084-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 292645,
+   "notation": "4084",
+   "stationReference": "4084"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4206",
+   "RLOIid": "9055",
+   "catchmentName": "Tame Anker and Mease",
+   "dateOpened": "2008-09-20",
+   "easting": 405977,
+   "gridReference": "SP0597781922",
+   "label": "Selly Park",
+   "lat": 52.435233,
+   "long": -1.913503,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4206-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 281922,
+   "notation": "4206",
+   "riverName": "River Rea",
+   "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4206/stageScale",
+   "stationReference": "4206",
+   "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+   "town": "Selly Park",
+   "wiskiID": "4206"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4896",
+   "RLOIid": "9065",
+   "catchmentName": "Tame Anker and Mease",
+   "dateOpened": "2000-02-01",
+   "easting": 420150,
+   "gridReference": "SP2015090030",
+   "label": "Swans Barn",
+   "lat": 52.507787,
+   "long": -1.704544,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4896-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 290030,
+   "notation": "4896",
+   "riverName": "River Cole",
+   "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4896/stageScale",
+   "stationReference": "4896",
+   "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+   "town": "Swans Barn, Coleshill",
+   "wiskiID": "4896"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4105",
+   "RLOIid": "9062",
+   "catchmentName": "Tame Anker and Mease",
+   "dateOpened": "1988-09-01",
+   "easting": 400158,
+   "gridReference": "SP00169565",
+   "label": "Park Hill",
+   "lat": 52.558696,
+   "long": -1.999094,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4105-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 295652,
+   "notation": "4105",
+   "riverName": "River Tame",
+   "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4105/stageScale",
+   "stationReference": "4105",
+   "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+   "town": "Park Hill",
+   "wiskiID": "4105"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4200",
+   "RLOIid": "9087",
+   "catchmentName": "Tame Anker and Mease",
+   "dateOpened": "2002-05-22",
+   "easting": 400577,
+   "gridReference": "SP 0058 9678",
+   "label": "Walsall",
+   "lat": 52.568845,
+   "long": -1.992912,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4200-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 296781,
+   "notation": "4200",
+   "riverName": "Ford Brook",
+   "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4200/stageScale",
+   "stationReference": "4200",
+   "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+   "wiskiID": "4200"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4101",
+   "RLOIid": "9071",
+   "catchmentName": "Tame Anker and Mease",
+   "dateOpened": "1989-07-10",
+   "easting": 397397,
+   "gridReference": "SO9739791756",
+   "label": "Sheepwash",
+   "lat": 52.523665,
+   "long": -2.039788,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4101-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 291756,
+   "notation": "4101",
+   "riverName": "River Tame",
+   "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4101/stageScale",
+   "stationReference": "4101",
+   "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+   "town": "Sheepwash, Tipton",
+   "wiskiID": "4101"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2898",
+   "RLOIid": "9295",
+   "catchmentName": "Worcestershire Middle Severn",
+   "dateOpened": "2004-04-26",
+   "easting": 395830,
+   "gridReference": "SO95837463",
+   "label": "Wildmoor Flume",
+   "lat": 52.369692,
+   "long": -2.062663,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2898-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 274630,
+   "notation": "2898",
+   "riverName": "River Salwarpe",
+   "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2898/stageScale",
+   "stationReference": "2898",
+   "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+   "town": "Wildmoor - Battlefield Brook",
+   "wiskiID": "2898"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2539",
+   "RLOIid": "9429",
+   "catchmentName": "Stour",
+   "dateOpened": "2021-04-14",
+   "easting": 396892,
+   "gridReference": "SO9689383036",
+   "label": "Halesowen Dogkennel Lane",
+   "lat": 52.44527,
+   "long": -2.047146,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2539-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 283036,
+   "notation": "2539",
+   "riverName": "River Stour",
+   "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2539/stageScale",
+   "stationReference": "2539",
+   "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+   "town": "Halesowen Dogkennel Lane",
+   "wiskiID": "2539"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2538",
+   "RLOIid": "9428",
+   "catchmentName": "Stour",
+   "dateOpened": "2021-08-09",
+   "easting": 397280,
+   "gridReference": "SO9727983028",
+   "label": "Halesowen, Manor Way",
+   "lat": 52.4452,
+   "long": -2.041438,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2538-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 283028,
+   "notation": "2538",
+   "riverName": "Illey Brook",
+   "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2538/stageScale",
+   "stationReference": "2538",
+   "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+   "town": "Halesowen Manor Way",
+   "wiskiID": "2538"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4902",
+   "RLOIid": "9066",
+   "catchmentName": "Tame Anker and Mease",
+   "dateOpened": "2021-07-08",
+   "easting": 400816,
+   "gridReference": "SP0081877524",
+   "label": "Longbridge",
+   "lat": 52.395726,
+   "long": -1.989426,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4902-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 277524,
+   "notation": "4902",
+   "riverName": "River Rea",
+   "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4902/stageScale",
+   "stationReference": "4902",
+   "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+   "town": "Longbridge",
+   "wiskiID": "4902"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4650",
+   "easting": 402829,
+   "gridReference": "SP0282983108",
+   "label": "Birmingham Lodge Hill Elford Road",
+   "lat": 52.44592,
+   "long": -1.959798,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4650-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 283108,
+   "notation": "4650",
+   "stationReference": "4650"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4662",
+   "easting": 404010,
+   "gridReference": "SP0401081220",
+   "label": "Birmingham Bournville Woodbrooke Road",
+   "lat": 52.42894,
+   "long": -1.942444,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4662-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 281220,
+   "notation": "4662",
+   "stationReference": "4662"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4654",
+   "easting": 411573,
+   "gridReference": "SP1157396086",
+   "label": "Sutton Coldfield Clifton Road",
+   "lat": 52.562477,
+   "long": -1.830703,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4654-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 296086,
+   "notation": "4654",
+   "stationReference": "4654"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4653",
+   "easting": 406215,
+   "gridReference": "SP0621593420",
+   "label": "Birmingham Perry Beeches Beeches Road",
+   "lat": 52.538596,
+   "long": -1.909791,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4653-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 293420,
+   "notation": "4653",
+   "stationReference": "4653"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4605",
+   "RLOIid": "9574",
+   "catchmentName": "Tame Anker and Mease",
+   "dateOpened": "2023-04-17",
+   "easting": 403984,
+   "gridReference": "SP0398492894",
+   "label": "Sandwell Woodend",
+   "lat": 52.533888,
+   "long": -1.942691,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4605-level-stage-i-15_min-m",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "m"
+    },
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4605-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 292894,
+   "notation": "4605",
+   "riverName": "River Tame",
+   "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4605/stageScale",
+   "stationReference": "4605",
+   "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+   "town": "Sandwell Valley",
+   "wiskiID": "4605"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/5042",
+   "easting": 403876,
+   "gridReference": "SP0387692889",
+   "label": "Forge Mill Reservoir",
+   "lat": 52.533844,
+   "long": -1.944283,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5042-level-reservoir_level-i-15_min-mAOD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Reservoir Level",
+     "unitName": "mAOD"
+    }
+   ],
+   "northing": 292889,
+   "notation": "5042",
+   "stationReference": "5042"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/5011",
+   "easting": 420452,
+   "gridReference": "SK2045201519",
+   "label": "Fazeley FG (w)",
+   "lat": 52.611058,
+   "long": -1.69939,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5011-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 301519,
+   "notation": "5011",
+   "stationReference": "5011"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4705",
+   "easting": 410160,
+   "gridReference": "SP1016089761",
+   "label": "Walker Drive",
+   "lat": 52.505644,
+   "long": -1.851738,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4705-level-stage-i-15_min-mAOD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mAOD"
+    }
+   ],
+   "northing": 289761,
+   "notation": "4705",
+   "stationReference": "4705"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4704",
+   "easting": 408212,
+   "gridReference": "SP0821290899",
+   "label": "Birmingham Witton Atlas Bridge",
+   "lat": 52.515907,
+   "long": -1.88041,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4704-level-stage-i-15_min-mAOD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mAOD"
+    }
+   ],
+   "northing": 290899,
+   "notation": "4704",
+   "stationReference": "4704"
+  }
+ ]
+}
